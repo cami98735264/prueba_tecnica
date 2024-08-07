@@ -13,4 +13,13 @@
   flex-wrap: wrap;
   gap: 27px;
   padding: 20px;
+  min-height: 100vh;
+}
+#articles-error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
 }

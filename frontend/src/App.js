@@ -4,6 +4,8 @@ import Article from './components/Article/Article.js';
 import { useState, useEffect } from 'react';
 import axiosInstance from './utils/requestsInstance/axiosInstance.js';
 
+
+
 function App() {
   const [articles, setArticles] = useState([]);
   
@@ -22,7 +24,8 @@ function App() {
 
   return (
     <Layout>
-      <section id="articles">
+      {articles.length > 0 ? (
+        <section id="articles">
         {articles.map((article, index) => (
           <Article
             key={index}
@@ -35,6 +38,9 @@ function App() {
           />
         ))}
       </section>
+      ): (
+        <h1 id='articles-error-container'>No articles available right now.</h1>
+        )}
     </Layout>
   );
 }
