@@ -9,10 +9,11 @@ Este proyecto consta de dos partes: una API en NodeJS con una base de datos Mong
   - [Instalación y Configuración](#instalación-y-configuración-backend)
   - [Endpoints](#endpoints)
   - [Ejecución](#ejecución-backend)
+  - [Funcionalidades] (#funcionalidades-backend)
 - [Frontend](#frontend)
   - [Instalación y Configuración](#instalación-y-configuración-frontend)
   - [Ejecución](#ejecución-frontend)
-  - [Funcionalidades](#funcionalidades)
+  - [Funcionalidades](#funcionalidades-frontend)
 
 ## Descripción General
 
@@ -54,6 +55,10 @@ Los datos en los cuales se basó la importación de la base de datos utilizada s
     ```
     La aplicación se ejecutará en http://localhost:5000.
 
+### Funcionalidades BackEnd
+- Manejo de excepciones, casos de uso y modularidad
+- Estructura de proyecto definida
+
 ## Frontend
 ### Instalación y Configuración FrontEnd
 1. **Utiliza el comando:**
@@ -68,6 +73,8 @@ Los datos en los cuales se basó la importación de la base de datos utilizada s
     ```
     La aplicación se ejecutará en http://localhost:3000.
     
-### Funcionalidades
+### Funcionalidades FrontEnd
 - Lista de Artículos: Muestra una lista de artículos recuperados del endpoint /articles.
 - Redirección: Al hacer clic en un artículo, el usuario será redirigido al URL asociado con ese artículo (traído de la base de datos).
+- Manejo de errores tanto para instancias, requests, imágenes no cargadas/encontradas, etc.
+- Estructura de proyecto definida.
