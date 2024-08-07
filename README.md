@@ -4,6 +4,7 @@ Este proyecto consta de dos partes: una API en NodeJS con una base de datos Mong
 
 ## Tabla de Contenidos
 - [Descripción General](#descripción-general)
+- [Demo video](#demo-video)
 - [Base de datos](#base-de-datos)
 - [Backend](#backend)
   - [Instalación y Configuración](#instalación-y-configuración-backend)
@@ -19,6 +20,8 @@ Este proyecto consta de dos partes: una API en NodeJS con una base de datos Mong
 
 Implementación de ambos stacks de aplicación; backend y frontend para desarrollar prueba técnica.
 
+## Demo video
+![gif-sample](https://github.com/cami98735264/prueba_tecnica/blob/main/gif-sample.gif)
 
 ## Base de datos
 La base de datos utilizada y exportada se encuentra en "./database/Database.json"
