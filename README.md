@@ -77,6 +77,7 @@ Los datos en los cuales se basó la importación de la base de datos utilizada s
     La aplicación se ejecutará en http://localhost:3000.
     
 ### Funcionalidades FrontEnd
+- Diseño responsivo y adaptativo a los tres tipos de resoluciones (pequeña, mediana y grande).
 - Lista de Artículos: Muestra una lista de artículos recuperados del endpoint /articles.
 - Redirección: Al hacer clic en un artículo, el usuario será redirigido al URL asociado con ese artículo (traído de la base de datos).
 - Manejo de errores tanto para instancias, requests, imágenes no cargadas/encontradas, etc.
