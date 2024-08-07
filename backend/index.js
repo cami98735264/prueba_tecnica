@@ -1,8 +1,9 @@
-// Initiate the server and connect to the database
+// Initiate the server and connect to the database, initialize dotenv (enviroment variables)
 require("./database/connection/Connection.js");
+require("dotenv").config();
 
 // Regular imports
-const PORT = 5000; // Our frontend will run on port 3000
+const PORT = process.env.PORT || 5000; // Our frontend will run on port 3000
 const express = require("express");
 const app = express();
 const cors = require("cors");
