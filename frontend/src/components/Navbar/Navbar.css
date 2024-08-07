@@ -3,3 +3,8 @@
     padding: 10px;
     color: rgb(130, 130, 130);
 }
+
+#navbar-description {
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    font-weight: 600;
+}
