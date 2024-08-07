@@ -42,7 +42,7 @@ Implementación de ambos stacks de aplicación; backend y frontend para desarrol
 ### Endpoints
 - **GET /articles:** Devuelve todos los artículos almacenados en la base de datos.
 
-### Ejecución
+### Ejecución BackEnd
 1. **Utiliza el comando:**
     ```sh
     npm start
@@ -56,7 +56,7 @@ Implementación de ambos stacks de aplicación; backend y frontend para desarrol
     cd frontend
     npm install
     ```
-2. **Ejecución**
+2. **Ejecución FrontEnd**
     Ejecuta:
     ```sh
     npm start
