@@ -12,7 +12,7 @@ Este proyecto consta de dos partes: una API en NodeJS con una base de datos Mong
 - [Frontend](#frontend)
   - [Instalación y Configuración](#instalación-y-configuración-frontend)
   - [Ejecución](#ejecución-frontend)
-  - [Funcionalidades](#funcionalidades-frontend)
+  - [Funcionalidades](#funcionalidades)
 
 ## Descripción General
 
@@ -20,7 +20,7 @@ Implementación de ambos stacks de aplicación; backend y frontend para desarrol
 
 ## Backend
 
-### Instalación y Configuración
+### Instalación y Configuración Backend
 
 1. **Clonar el Repositorio**:
    ```sh
@@ -50,7 +50,7 @@ Implementación de ambos stacks de aplicación; backend y frontend para desarrol
     La aplicación se ejecutará en http://localhost:5000.
 
 ## Frontend
-### Instalación y Configuración
+### Instalación y Configuración FrontEnd
 1. **Utiliza el comando:**
     ```sh
     cd frontend
