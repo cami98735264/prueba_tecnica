@@ -56,7 +56,7 @@ Implementación de ambos stacks de aplicación; backend y frontend para desarrol
     cd frontend
     npm install
     ```
-2. **Ejecución FrontEnd**
+### Ejecución FrontEnd
     Ejecuta:
     ```sh
     npm start
