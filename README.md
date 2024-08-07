@@ -3,8 +3,8 @@
 Este proyecto consta de dos partes: una API en NodeJS con una base de datos MongoDB y una aplicación frontend en React que consume dicha API.
 
 ## Tabla de Contenidos
-
 - [Descripción General](#descripción-general)
+- [Base de datos](#base-de-datos)
 - [Backend](#backend)
   - [Instalación y Configuración](#instalación-y-configuración-backend)
   - [Endpoints](#endpoints)
@@ -17,6 +17,11 @@ Este proyecto consta de dos partes: una API en NodeJS con una base de datos Mong
 ## Descripción General
 
 Implementación de ambos stacks de aplicación; backend y frontend para desarrollar prueba técnica.
+
+
+## Base de datos
+La base de datos utilizada y exportada se encuentra en "./database/Database.json"
+Los datos en los cuales se basó la importación de la base de datos utilizada se encuentra en "./database/Articles.json"
 
 ## Backend
 
@@ -57,7 +62,7 @@ Implementación de ambos stacks de aplicación; backend y frontend para desarrol
     npm install
     ```
 ### Ejecución FrontEnd
-    Ejecuta:
+1. **Utiliza el comando:**
     ```sh
     npm start
     ```
