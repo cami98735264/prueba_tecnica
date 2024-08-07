@@ -1,6 +1,7 @@
-
+require('dotenv').config();
+const { MONGO_URI } = process.env;
 const mongoose = require('mongoose');
-const connectToDB = mongoose.connect('mongodb://127.0.0.1:27017/Articles');
+const connectToDB = mongoose.connect(MONGO_URI);
 
 
 // Check if the connection to the database was successful
