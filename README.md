@@ -10,7 +10,7 @@ Este proyecto consta de dos partes: una API en NodeJS con una base de datos Mong
   - [Instalación y Configuración](#instalación-y-configuración-backend)
   - [Endpoints](#endpoints)
   - [Ejecución](#ejecución-backend)
-  - [Funcionalidades] (#funcionalidades-backend)
+  - [Funcionalidades](#funcionalidades-backend)
 - [Frontend](#frontend)
   - [Instalación y Configuración](#instalación-y-configuración-frontend)
   - [Ejecución](#ejecución-frontend)
